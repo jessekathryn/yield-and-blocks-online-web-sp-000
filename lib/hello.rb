@@ -11,5 +11,7 @@ end
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
+  else 
+    "No block given!"
   end
 end
